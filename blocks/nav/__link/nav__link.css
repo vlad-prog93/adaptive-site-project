@@ -1,0 +1,18 @@
+.nav__link {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  transition: all linear 0.3s;
+}
+.nav__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 625px) {
+  .nav__link {
+      font-size: 24px;
+      line-height: 24px;
+  }
+}

@@ -1,0 +1,11 @@
+.header__lang-link_active {
+  pointer-events: none;
+}
+
+.header__lang-link_active:after{
+  display: block;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+}
