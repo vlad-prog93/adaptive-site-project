@@ -1,16 +1,12 @@
-.nav__list {
+.footer__list {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.nav__list-item:not(:last-child) {
-  margin: 0 18px 0 0;
-}
-
 @media screen and (max-width: 625px) {
-  .nav__list {
+  .footer__list {
       flex-direction: column;
   }
 }

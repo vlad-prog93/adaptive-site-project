@@ -4,11 +4,26 @@
   width: 92.5%;
   height: 52px;
   margin: 0 auto;
-  padding-top: 27px;
+  padding-top: 30px;
 }
 
-@media screen and (max-width: 625px) {
+
+@media screen and (max-width: 1024px) {
   .header {
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 96%;
+  }
+}
+
+/* может быть поменять */
+@media screen and (max-width: 320px) {
+  .header {
+    width: 94%;
     padding-top: 16px;
     margin: 0 16px;
     height: 42px;

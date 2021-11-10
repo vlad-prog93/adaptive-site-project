@@ -2,8 +2,16 @@
   grid-area: 1 / 1 / 2 / 3;
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 1024px) {
+  .header__logo {
+    margin-left: 10px;
+  }
+}
+
+/* может поменять */
+@media screen and (max-width: 425px) {
   .header__logo {
     width: 142px;
+    margin-left: 0;
   }
 }

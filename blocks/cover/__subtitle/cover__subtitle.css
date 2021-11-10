@@ -10,8 +10,8 @@
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    font-size: calc(0.009*100vw + 7.1px);
-    line-height: calc(0.013*100vw + 5.7px);
+    font-size: calc(0.009*100vw + 11px);
+    line-height: calc(0.013*100vw + 11px);
   }
 }
 

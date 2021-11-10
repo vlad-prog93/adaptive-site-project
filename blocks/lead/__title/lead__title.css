@@ -1,6 +1,6 @@
 .lead__title {
   max-width: 720px;
-  margin: 0 0 32px 0;
+  margin: 0 0 35px 0;
   padding: 0;
   text-align: center;
   font-size: 96px;
@@ -8,15 +8,24 @@
   line-height: 100px;
 }
 
+@media screen and (max-width: 1024px) {
+  .lead__title {
+      margin: 0 0 32px 0;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .lead__title {
       font-size: calc(0.125 * 100vw);
       line-height: calc(0.125 * 100vw);
+      margin: 0 0 41px 0;
   }
 }
 
-@media screen and (max-width: 625px) {
+/* может поменять */
+@media screen and (max-width: 320px) {
   .lead__title {
-      margin: 0 0 16px 0;
+      margin: 0 0 20px 0;
   }
 }

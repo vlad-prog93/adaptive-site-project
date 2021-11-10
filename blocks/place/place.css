@@ -1,9 +1,9 @@
 .place {
   display: grid;
   max-width: 984px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 0.49fr 0.51fr;
   margin: 0 auto;
-  padding-bottom: 84px;
+  padding-bottom: 74px;
   row-gap: 48px;
   column-gap: 40px;
 }
@@ -11,19 +11,24 @@
 @media screen and (max-width: 1024px) {
   .place {
       max-width: 928px;
-      margin: 0 calc(0.05 * 100vw + 7px);
+      margin: 0 calc(0.05 * 100vw);
       column-gap: 32px;
+      row-gap: 59px;
+      padding-bottom: 85px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-      margin: 0 24px;
-      padding-bottom: 73px;
-      column-gap: 28px;
+    grid-template-columns: 0.49fr 0.51fr;
+    margin: 0 24px;
+    padding-bottom: 73px;
+    column-gap: 28px;
+    row-gap: 53px;
+    padding-bottom: 70px;
   }
 }
-
+/* может поменять */
 @media screen and (max-width: 625px) {
   .place {
       grid-template-columns: 1fr;
@@ -36,5 +41,6 @@
   .place {
       margin: 0;
       padding-bottom: 50px;
+      row-gap: 34px;
   }
 }

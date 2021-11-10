@@ -4,6 +4,7 @@
   text-decoration: none;
   color: inherit;
   transition: all linear 0.3s;
+  margin-bottom: 6px;
 }
 
 .header__lang-link:hover {
@@ -14,10 +15,17 @@
   margin-right: 18px;
 }
 
-@media screen and (max-width: 625px) {
+
+@media screen and (max-width: 1024px) {
+  .header__lang-link {
+    margin-right: 13px;
+    }
+  }
+
+/* может быть поменять */
+@media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
-    padding-bottom: 8px;
   }
 }

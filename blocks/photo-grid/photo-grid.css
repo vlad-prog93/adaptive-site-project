@@ -9,20 +9,21 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
       grid-template-columns: repeat(3, 1fr);
+      margin: 0 45px 85px;
   }
 }
 
 @media screen and (max-width: 768px) {
-
   .photo-grid {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       margin: 0 24px 88px;
   }
 }
 
-@media screen and (max-width: 625px) {
+/* может изменить на 625*/
+@media screen and (max-width: 425px) {
   .photo-grid {
-      grid-template-columns: 1fr;
-      margin: 0 16px 64px;
+    margin: 0 16px 64px;
+    row-gap: 12px;
   }
 }

@@ -4,8 +4,14 @@
   justify-content: end;
 }
 
+@media screen and (max-width: 768px) {
+  .place__website {
+    padding-bottom: 10px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__website {
-      margin: 0 16px;
+      margin: 0 20px;
   }
 }

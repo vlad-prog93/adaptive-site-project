@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1280px) {
   .cover {
-      height: calc(0.58 * 100vw);
+    height: calc(0.58 * 100vw);
   }
 }
 

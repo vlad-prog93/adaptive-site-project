@@ -1,5 +1,0 @@
-@media screen and (max-width: 625px) {
-  .nav__list-item:not(:last-child) {
-      margin: 0 0 32px 0;
-  }
-}
