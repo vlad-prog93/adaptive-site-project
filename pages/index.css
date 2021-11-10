@@ -58,21 +58,21 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url(../fonts/Inter-Black.ttf);
+    src: url(../vendor/fonts/Inter-Black.ttf);
     font-style: normal;
     font-weight: 900;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url(../fonts/Inter-Bold.ttf);
+    src: url(../vendor/fonts/Inter-Bold.ttf);
     font-style: normal;
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url(../fonts/Inter-Regular.ttf);
+    src: url(../vendor/fonts/Inter-Regular.ttf);
     font-style: normal;
     font-weight: 400;
 }
