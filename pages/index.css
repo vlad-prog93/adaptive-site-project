@@ -1,3 +1,4 @@
+@import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
 
 
@@ -24,7 +25,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__lists/intro__lists.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_value/intro__list_value.css);
+@import url(../blocks/intro/__number/intro__number.css);
 
 
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -54,25 +55,3 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__list-item/footer__list-item.css);
 @import url(../blocks/footer/__list/footer__list.css);
-
-
-@font-face {
-    font-family: 'Inter';
-    src: url(../vendor/fonts/Inter-Black.ttf);
-    font-style: normal;
-    font-weight: 900;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url(../vendor/fonts/Inter-Bold.ttf);
-    font-style: normal;
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url(../vendor/fonts/Inter-Regular.ttf);
-    font-style: normal;
-    font-weight: 400;
-}

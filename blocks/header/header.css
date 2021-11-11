@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   width: 92.5%;
-  height: 52px;
+  min-height: 52px;
   margin: 0 auto;
   padding-top: 30px;
 }
@@ -26,6 +26,6 @@
     width: 94%;
     padding-top: 16px;
     margin: 0 16px;
-    height: 42px;
+    min-height: 42px;
   }
 }

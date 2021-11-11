@@ -3,9 +3,8 @@
   max-width: 1280px;
   color: #FFF;
   margin: 0 auto;
-  font-family: 'Inter';
+  font-family: Inter, 'Arial', 'Helvetica CY', 'Nimbus Sans L';
   font-weight: 400;
-  overflow-x:hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
