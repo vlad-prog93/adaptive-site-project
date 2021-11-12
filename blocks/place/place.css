@@ -3,18 +3,18 @@
   max-width: 984px;
   grid-template-columns: 0.49fr 0.51fr;
   margin: 0 auto;
-  padding-bottom: 74px;
+  padding-bottom: 78px;
   row-gap: 48px;
   column-gap: 40px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-      max-width: 928px;
-      margin: 0 calc(0.05 * 100vw);
-      column-gap: 32px;
-      row-gap: 59px;
-      padding-bottom: 85px;
+    max-width: 928px;
+    margin: 0 calc(0.049 * 100vw);
+    column-gap: 32px;
+    row-gap: 48px;
+    padding-bottom: 85px;
   }
 }
 
@@ -23,7 +23,7 @@
     grid-template-columns: 0.49fr 0.51fr;
     margin: 0 24px;
     column-gap: 28px;
-    row-gap: 53px;
+    row-gap: 48px;
     padding-bottom: 70px;
   }
 }
@@ -32,7 +32,7 @@
   .place {
       grid-template-columns: 1fr;
       row-gap: 32px;
-      margin: 0 16px;
+      margin: 0 16px 70px;
   }
 }
 
