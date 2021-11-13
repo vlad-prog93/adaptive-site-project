@@ -1,3 +1,22 @@
 .places {
   margin-bottom: 9px;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    margin-bottom: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin-bottom: 21px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    margin-bottom: 16px;
+  }
+}
+

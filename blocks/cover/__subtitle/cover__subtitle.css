@@ -10,14 +10,13 @@
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    font-size: calc(0.009*100vw + 11px);
-    line-height: calc(0.013*100vw + 11px);
+    font-size: calc(0.0089*100vw + 11.14px);
+    line-height: calc(0.0134*100vw + 11.71px);
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__subtitle {
-    width: 288px;
     font-size: 14px;
     line-height: 16px;
   }
